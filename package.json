@@ -1,0 +1,40 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev && next dev:scss",
+    "start": "next start",
+    "lint": "next lint",
+    "build:scss": "sass --no-source-map src/yourgamename.scss yourgamename.css",
+    "watch:ts": "tsc --watch",
+    "watch:scss": "sass --watch src/yourgamename.scss yourgamename.css",
+    "watch": "npm run watch:ts && npm run watch:scss",
+    "build": "next build:ts && next build:scss"
+  },
+  "dependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/node": "18.15.13",
+    "@types/react": "18.0.37",
+    "@types/react-dom": "18.0.11",
+    "@zeit/next-sass": "^1.0.1",
+    "autoprefixer": "10.4.14",
+    "axios": "^1.4.0",
+    "eslint": "8.38.0",
+    "eslint-config-next": "13.3.0",
+    "js-cookie": "^3.0.5",
+    "next": "13.3.0",
+    "node-sass": "^8.0.0",
+    "postcss": "8.4.23",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "sass": "^1.62.1",
+    "socket.io-client": "^4.6.1",
+    "tailwindcss": "3.3.1",
+    "typescript": "5.0.4"
+  },
+  "devDependencies": {
+    "@types/js-cookie": "^3.0.3",
+    "@types/node-sass": "^4.11.3"
+  }
+}

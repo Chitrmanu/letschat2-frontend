@@ -1,0 +1,31 @@
+.header{
+    display:flex;
+    padding: 0.4rem;
+    background: #3a3586;
+    align-items: center;
+    justify-content: center;
+    .heading{
+        margin: 0 2rem;
+    }
+    .displayNone{
+        display: none;
+    }
+    .signInLogout{
+        margin-left: auto;
+        margin-right: 2rem;
+        background: #7742da;
+        padding: 0.2rem 1rem;
+        font-size: 1.2rem;
+        border-radius: 0.5rem;
+        border: white 2px solid;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+        &:hover{
+            background: white;
+            border:#7742da 5px solid;
+            color:#7742da;
+            cursor: pointer;
+            padding: 0.3rem 1.2rem;
+        }
+    }
+}
